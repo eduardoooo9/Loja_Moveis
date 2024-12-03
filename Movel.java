@@ -1,6 +1,4 @@
-package models;
-
-public class Movel {
+public abstract class Movel {
     private int id;
     private String nome;
     private float preco;
@@ -33,11 +31,5 @@ public class Movel {
 
     public void setPreco(float preco) {
         this.preco = preco;
-    }
-
-    public void mostrarDetalhes() {
-        System.out.println("ID: " + id);
-        System.out.println("Nome: " + nome);
-        System.out.println("Preço: R$ " + preco);
     }
 }
